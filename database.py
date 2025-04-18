@@ -13,6 +13,14 @@ CREATE TABLE IF NOT EXISTS users (
 )
 """)
 
+cursor.otp_requests ("""
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL,
+    otp VARCHAR(6) NOT NULL,
+    otp_expiry DATETIME NOT NULL
+""")
+
+
 conn.commit()
 cursor.close()
 conn.close()
