@@ -17,7 +17,7 @@ MAIL_CONFIG = {
     'MAIL_SERVER': 'smtp.gmail.com',
     'MAIL_PORT': 587,
     'MAIL_USE_TLS': True,
-    'MAIL_USERNAME': 'your_email@gmail.com',
-    'MAIL_PASSWORD': 'your_email_password',
-    'MAIL_DEFAULT_SENDER': 'your_email@gmail.com'
+    'MAIL_USERNAME': 'quamin_agricare',
+    'MAIL_PASSWORD': "lnzo ipkz ewty lyie",
+    'MAIL_DEFAULT_SENDER': "sugashsugu@gmail.com"
 }
